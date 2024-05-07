@@ -297,10 +297,6 @@ main {
 		color: gray;
 	}
 }
-/* 
-.explorer a {
-	color: white;
-} */
 
 footer {
 	color: gray;
@@ -308,6 +304,11 @@ footer {
 	width: 100%;
 	border-radius: 8px;
 	background-color: lightgray;
+}
+
+@media only screen and (max-width: 950px) {
+	main {left: 0px;}
+	.sideBar {display: none;}
 }
 
 button {
